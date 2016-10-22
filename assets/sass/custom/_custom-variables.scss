@@ -1,0 +1,26 @@
+// Custom Variables
+$color-accent:      #DDB250;
+$color-accent-dark: darken($color-accent, 10%);
+
+$color-success:     #49C949;
+$color-info:        #49A7C9;
+
+$border-radius:     2px;
+$box-shadow-1:      0 5px 15px rgba(0,0,0,.15);
+
+$color-lightest:    #F2F2F2;
+$color-lighter:     #E5E5E5;
+$color-light:       #9B9B9B;
+$color-mid:         #827575;
+$color-dark:        #545454;
+$color-darker:      #211E17;
+$color-darkest:     #080705;
+
+//Vars override
+$color_body:        $color-dark;
+$color_links:       $color-accent;
+
+$color_woocommerce: $color-accent;
+
+//breakpoints
+$break-sm: 768px;
