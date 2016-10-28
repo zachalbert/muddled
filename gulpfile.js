@@ -135,13 +135,11 @@ gulp.task( 'html', function() {
 
 gulp.task( 'browser-sync', function() {
   browserSync.init(null, {
-    server: {
-      baseDir: "./"
-    },
+    proxy: "localhost:8888/muddled/",
     browser: "google chrome"
   });
 });
 
 gulp.task('default', ['css', 'browser-sync'], function() {
-  gulp.watch("assets/sass/*/*.scss", ['css']);
+  gulp.watch("assets/sass/**/*", ['css']);
 });
