@@ -104,12 +104,15 @@ ul.products li.product h3 {
 
 //styling the product card in a list view
 .products {
-  @extend .flex;
+  //@extend .flex;
   .product {
     padding: 0 0 1rem 0;
     box-shadow: $box-shadow-1;
     border-radius: 4px;
     overflow: hidden;
+    h3 {
+      padding: 0 1rem;
+    }
   }
 }
 
